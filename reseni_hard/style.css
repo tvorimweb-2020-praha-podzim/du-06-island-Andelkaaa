@@ -4,6 +4,7 @@ body {
     background-color: #f5f5f5;
     font-family: 'Merriweather', serif;
     line-height: 1.5;
+    margin: 0;
 }
 
 /*Mobil first*/
@@ -55,7 +56,7 @@ ul {
     padding: 1rem 0 1rem 0;
 }
 
-a {
+.navigation {
     text-decoration: none;
     color: #9E9E9E;
 }
@@ -63,25 +64,51 @@ a {
 li {
     border-bottom: 1px solid gainsboro;
     padding: 0.25rem 0 0.25rem 0;
+    margin: 0 1.5rem 0 1.5rem;
 }
 
 p {
     font-size: 0.6rem;
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 0 1rem 0 1rem;
 }
 
-.part1 {
+.part1,
+.part2,
+.part3,
+.part4 {
     padding-bottom: 1.5rem;
 }
 
-.island1 {
+.part4 {
+    padding-top: 1.5rem;
+}
+
+img {
     width: 100%;
     height: auto;
 }
 
-.island1_credit {
+.credit {
     text-align: center;
     margin: 0;
 }
 
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.credit,
+.credit > a {
+    color: #9E9E9E;
+}
+
+.object2 {
+    background-color: #629edb;
+    height: 3px;
+    width: 50px;
+    margin: 1rem 0 1.5rem 0;
+}
 
