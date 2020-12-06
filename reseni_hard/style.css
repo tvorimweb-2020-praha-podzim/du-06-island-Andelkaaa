@@ -112,3 +112,15 @@ h2 {
     margin: 1rem 0 1.5rem 0;
 }
 
+.previews p {
+    color: grey;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.previews a {
+    color: #9E9E9E;
+    font-weight: 400;
+}
+
