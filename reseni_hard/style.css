@@ -5,7 +5,9 @@ body {
     font-family: 'Merriweather', serif;
     line-height: 1.5;
     margin: 0;
+    padding: 0;
 }
+
 
 /*Mobil first*/
 
@@ -15,6 +17,7 @@ header {
         url(images/island-hlavicka.jpg);
     background-size: cover;
     color: seashell;
+    margin: 0;
 }
 
 h1 {
@@ -113,14 +116,39 @@ h2 {
 }
 
 .previews p {
+    font-family: 'Raleway', sans-serif;
     color: grey;
     margin-top: 0;
     text-align: center;
-    font-weight: bold;
+    padding-bottom: 0.5rem;
 }
 
 .previews a {
     color: #9E9E9E;
     font-weight: 400;
+}
+
+.gallery {
+    box-shadow: 1px 12px 15px -3px rgba(201,201,201,1);
+}
+
+footer {
+    margin: 0;
+    color: grey;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.5rem;
+}
+
+footer a {
+    color: grey;
+}
+
+.moyan {
+    padding-top: 0.5rem;
 }
 
