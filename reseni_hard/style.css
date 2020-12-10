@@ -4,12 +4,12 @@ body {
     background-color: #f5f5f5;
     font-family: 'Merriweather', serif;
     line-height: 1.5;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 
-/*Mobil first*/
+/*Mobile first*/
 
 header {
     background-image: 
@@ -152,13 +152,38 @@ footer a {
     padding-top: 0.5rem;
 }
 
-.previews > img {
-    transition: all .2s ease-in-out;
+
+/*Tablet*/
+
+@media only screen and (min-width: 480px) {
+
+h1 {
+    font-size: 3rem;
+    padding-bottom: 0;
 }
 
-.previews > img:hover {
-    transform: scale(1.1);
-    width: 100%;
-    height: auto;
+ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.6rem;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
 }
+
+li {
+    border-bottom:none;
+}
+
+
+
+
+
+
+}
+
+
+
 
