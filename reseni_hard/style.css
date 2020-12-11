@@ -9,7 +9,10 @@ body {
 }
 
 
-/*Mobile first*/
+/*MOBIL*/
+
+
+/*hlavička*/ 
 
 header {
     background-image: 
@@ -48,6 +51,9 @@ header p {
     margin: 0;
 }
 
+
+/*navigace*/
+
 ul {
     display: flex;
     flex-direction: column;
@@ -69,6 +75,9 @@ li {
     padding: 0.25rem 0 0.25rem 0;
     margin: 0 1.5rem 0 1.5rem;
 }
+
+
+/*texty*/
 
 p {
     font-size: 0.6rem;
@@ -115,22 +124,35 @@ h2 {
     margin: 1rem 0 1.5rem 0;
 }
 
-.previews p {
-    font-family: 'Raleway', sans-serif;
+
+/*galerie*/
+
+figure {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0 0 0.5rem 0;
     color: grey;
-    margin-top: 0;
+}
+
+figcaption {
+    font-family: 'Raleway', sans-serif;
     text-align: center;
+    font-size: 0.6rem;
     padding-bottom: 0.5rem;
 }
 
-.previews a {
+figcaption > a {
     color: #9E9E9E;
-    font-weight: 400;
+    font-size: 0.6rem;
 }
 
 .gallery {
     box-shadow: 1px 12px 15px -3px rgba(201,201,201,1);
 }
+
+
+/*patička*/
 
 footer {
     margin: 0;
@@ -153,7 +175,8 @@ footer a {
 }
 
 
-/*Tablet*/
+
+/*TABLET*/
 
 @media only screen and (min-width: 480px) {
 
@@ -174,9 +197,53 @@ ul {
 }
 
 li {
-    border-bottom:none;
+   border-bottom:none;
 }
 
+.sectionone > img {
+    position: relative;
+}
+
+.sectionone .credit {
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+    color: white;
+}
+
+.sectiontwo > img {
+    position: relative;
+}
+
+.sectiontwo .credit {
+    position: absolute;
+    right: 0;
+    bottom: -685px;
+    color: white;
+}
+
+.sectionthree .credit {
+    position: absolute;
+    right: 0;
+    bottom: -1340px;
+    color: white;
+}
+
+.credit > a {
+    color: white;
+}
+
+.previews {
+    display: flex;
+    flex-wrap: wrap;
+}
+.previews > img {
+    width: 50%;
+}
+
+.previews > p {
+
+}
 
 
 
