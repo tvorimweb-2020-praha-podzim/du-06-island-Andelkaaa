@@ -33,7 +33,7 @@ h1 {
 header p {
     text-align: center;
     font-size: 0.6rem;
-    padding: 1rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .object1 {
@@ -81,7 +81,7 @@ li {
 
 p {
     font-size: 0.6rem;
-    padding: 0 1rem 0 1rem;
+    padding: 0 0.7rem 0 0.7rem;
 }
 
 .part1,
@@ -101,7 +101,6 @@ img {
 }
 
 .credit {
-    text-align: center;
     margin: 0;
 }
 
@@ -109,10 +108,9 @@ h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 0.9rem;
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 0.7rem;
 }
 
-.credit,
 .credit > a {
     color: #9E9E9E;
 }
@@ -180,9 +178,21 @@ footer a {
 
 @media only screen and (min-width: 480px) {
 
+    
+/*hlavička*/
+
 h1 {
     font-size: 3rem;
     padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+/*navigace*/
+
+nav {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 ul {
@@ -193,57 +203,89 @@ ul {
     border-top: 1px solid gainsboro;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-
 }
 
 li {
    border-bottom:none;
 }
 
-.sectionone > img {
+
+/*texty*/
+
+main figure {
     position: relative;
 }
 
-.sectionone .credit {
+main figcaption {
     position: absolute;
     right: 0;
-    bottom: -70px;
+    bottom: 15px;
     color: white;
 }
 
-.sectiontwo > img {
-    position: relative;
-}
-
-.sectiontwo .credit {
-    position: absolute;
-    right: 0;
-    bottom: -685px;
+.credit a {
     color: white;
 }
 
-.sectionthree .credit {
-    position: absolute;
-    right: 0;
-    bottom: -1340px;
-    color: white;
-}
 
-.credit > a {
-    color: white;
-}
+/*galerie*/
 
 .previews {
     display: flex;
     flex-wrap: wrap;
 }
-.previews > img {
+
+.photo {
     width: 50%;
+    font-size: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
 }
 
-.previews > p {
+.photo img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.photo figcaption {
+    position: absolute;
+    height: 0;
+    bottom: -10;
+    color: white;
+    background:rgba(50 , 50, 50, 0.7);
+    width: 100%;
+    padding-top: 0.3rem;
+}
+
+.photo figcaption a {
+    color: white;
+}
+
+.photo:hover figcaption {
+    height: 30%;
+    bottom: 0;
+    transition: 0.5s;
+}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
