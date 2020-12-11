@@ -178,7 +178,7 @@ footer a {
 
 @media only screen and (min-width: 480px) {
 
-    
+
 /*hlavička*/
 
 h1 {
@@ -267,7 +267,103 @@ main figcaption {
     bottom: 0;
     transition: 0.5s;
 }
+}
 
+
+
+/*PC*/
+
+@media only screen and (min-width: 860px) {
+
+body {
+    font-size: 1rem;
+}
+
+/*hlavička*/
+
+h1 {
+    padding-top: 3rem;
+    font-size: 5rem;
+}
+
+header p {
+    font-size: 1rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    position: relative;
+}
+
+.jana {
+    font-size: 1rem;
+    padding: 2rem 0 6rem 0;
+}
+
+/*navigace + úvod*/
+
+.pc_version {
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    top: 480px;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 16px 35px 0px rgba(107,107,107,0.62);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pc_main {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+ul {
+    padding-right: 2rem;
+    display: block;
+    border: none;
+    padding-top: 1.5rem;
+}
+
+li {
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid gainsboro;
+}
+
+.part1 {
+    padding: 1.5rem 1rem 1rem 4rem;
+}
+
+/*texty*/
+
+
+.part2 {
+    float: left;
+    padding-left: 1.5rem;
+    padding-right: 8rem;
+}
+
+h2,
+.object2 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+
+
+
+
+footer {
+    position: absolute;
+    bottom: -2400px;
+    width: 80%;
+    margin-left: 5rem;
+    font-size: 1.5rem;
 }
 
 
@@ -282,17 +378,4 @@ main figcaption {
 
 
 
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
