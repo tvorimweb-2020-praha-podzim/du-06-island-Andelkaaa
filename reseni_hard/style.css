@@ -280,7 +280,9 @@ main figcaption {
 
 body {
     font-size: 1.5rem;
-    max-width: 1280px;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -386,18 +388,4 @@ footer {
     font-size: 1rem;
     margin-top: -4rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
