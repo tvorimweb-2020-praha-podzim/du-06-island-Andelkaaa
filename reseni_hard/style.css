@@ -314,7 +314,6 @@ header p {
 main {
     max-width: 80%;
     background-color: white;
-    box-shadow: 0px 16px 35px 0px rgba(107,107,107,0.62);
     margin: -5rem auto 5rem auto;
     position: relative;
 }
@@ -384,8 +383,10 @@ h2 {
 /*patička*/
 
 footer {
-    padding-left: 7.5rem;
-    font-size: 1rem;
-    margin-top: -4rem;
+    background-color: #f5f5f5;
+}
+
+footer p {
+    padding-left: 0;
 }
 }
